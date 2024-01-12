@@ -1,4 +1,5 @@
 import { print } from "react-html2pdf";
+import logo from "../assets/logo.png";
 const Etiqueta = ({ data }) => {
   return (
     <div>
@@ -18,7 +19,7 @@ const Etiqueta = ({ data }) => {
           <div key={index} className="p-4 border ">
             <div className=" border-4 px-3 py-2">
               <img
-                src="/assets/logo.png"
+                src={logo}
                 alt="logo"
                 width="100" // Ancho deseado de la imagen
                 height="200" // Altura deseada de la imagen
