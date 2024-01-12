@@ -6,9 +6,7 @@ const Home = () => {
   const [labelList, setLabelList] = useState([]);
 
   const addLabel = (label) => {
-    // Cambia setLabelList para agregar el nuevo label a la lista existente
     setLabelList([...labelList, label]);
-    console.log(labelList);
   };
 
   return (
