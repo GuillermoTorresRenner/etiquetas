@@ -109,6 +109,7 @@ const Formulario = ({ addLabel }) => {
               <option value="Mosto para Sulfuroso">Mosto para Sulfuroso</option>
               <option value="Mosto para FAN">Mosto para FAN</option>
               <option value="Sulfuroso al 5%">Sulfuroso al 5%</option>
+               <option value="Mosto para FAN y SO2">Mosto para FAN y SO2</option>
               <option value="Vino de Guarda">Vino de Guarda</option>
             </Field>
           </div>
