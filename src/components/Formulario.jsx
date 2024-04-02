@@ -109,7 +109,7 @@ const Formulario = ({ addLabel }) => {
               <option value="Mosto para Sulfuroso">Mosto para Sulfuroso</option>
               <option value="Mosto para FAN">Mosto para FAN</option>
               <option value="Sulfuroso al 5%">Sulfuroso al 5%</option>
-               <option value="Mosto para FAN y SO2">Mosto para FAN y SO2</option>
+              <option value="Mosto para FAN y SO2">Mosto para FAN y SO2</option>
               <option value="Vino de Guarda">Vino de Guarda</option>
             </Field>
           </div>
@@ -121,11 +121,25 @@ const Formulario = ({ addLabel }) => {
               Material:
             </label>
             <Field
-              type="text"
+              as="select"
               id="material"
               name="material"
               className="mt-1 p-2 w-full border rounded"
-            />
+            >
+              <option value="">SELECCIONE MATERIAL</option>
+              <option value="VP-MOST-ESP-FI">VP-MOST-ESP-FI</option>
+              <option value="VP-MOST-MIST">VP-MOST-MIST</option>
+              <option value="VP-MOST-COM">VP-MOST-COM</option>
+              <option value="VP-MOST-3R-AU">VP-MOST-3R-AU</option>
+              <option value="VP-MOST-3R-FI">VP-MOST-3R-FI</option>
+              <option value="VP-MOST-3R-PJ">VP-MOST-3R-PJ</option>
+              <option value="VP-VINO-ESP-F">VP-VINO-ESP-FI</option>
+              <option value="VP-VINO-MIST">VP-VINO-MIST</option>
+              <option value="VP-VINO-COM">VP-VINO-COM</option>
+              <option value="VP-VINO-3R-AU">VP-VINO-3R-AU</option>
+              <option value="VP-VINO-3R-FI">VP-VINO-3R-FI</option>
+              <option value="VP-VINO-3R-PJ">VP-VINO-3R-PJ</option>
+            </Field>
           </div>
           <div className="mb-4">
             <label htmlFor="codigo" className=" text-sm font-medium text-white">
