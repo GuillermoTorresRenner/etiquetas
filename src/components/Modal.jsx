@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 
 const Modal = ({ modalOpen, onClose, onAccept }) => {
   return (

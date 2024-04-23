@@ -51,6 +51,10 @@ const Etiqueta = ({ data }) => {
               <p className="mb-2">
                 <strong className="text-gray-600">Litros:</strong> {d.litros}
               </p>
+              <p className="mb-2">
+                <strong className="text-gray-600">Comentarios: </strong>
+                {d.comentarios}
+              </p>
             </div>
           </div>
         ))}

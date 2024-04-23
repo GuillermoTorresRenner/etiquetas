@@ -12,6 +12,7 @@ const initialValues = {
   codigo: "",
   cuba: "",
   litros: "",
+  comentarios: "",
 };
 
 const Formulario = ({ addLabel }) => {
@@ -106,6 +107,9 @@ const Formulario = ({ addLabel }) => {
               <option value="">Seleccione Tipo de Análisis</option>
               <option value="Control Proceso">Control Proceso</option>
               <option value="FTR Vino">FTR Vino</option>
+              <option value="Vino Filtrado de Borra">
+                Vino Filtrado de Borra
+              </option>
               <option value="Mosto para Sulfuroso">Mosto para Sulfuroso</option>
               <option value="Mosto para FAN">Mosto para FAN</option>
               <option value="Sulfuroso al 5%">Sulfuroso al 5%</option>
@@ -127,6 +131,7 @@ const Formulario = ({ addLabel }) => {
               className="mt-1 p-2 w-full border rounded"
             >
               <option value="">SELECCIONE MATERIAL</option>
+              <option value="VFB">VFB</option>
               <option value="VP-MOST-ESP-FI">VP-MOST-ESP-FI</option>
               <option value="VP-MOST-MIST">VP-MOST-MIST</option>
               <option value="VP-MOST-COM">VP-MOST-COM</option>
@@ -171,6 +176,21 @@ const Formulario = ({ addLabel }) => {
               type="text"
               id="litros"
               name="litros"
+              className="mt-1 p-2 w-full border rounded"
+            />
+          </div>
+          <div className="mb-4">
+            <label
+              htmlFor="comentarios"
+              className=" text-sm font-medium text-white"
+            >
+              Comentarios
+            </label>
+            <Field
+              as="textarea"
+              type="text"
+              id="comentarios"
+              name="comentarios"
               className="mt-1 p-2 w-full border rounded"
             />
           </div>
