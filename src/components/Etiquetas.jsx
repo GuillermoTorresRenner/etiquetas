@@ -16,7 +16,7 @@ const Etiqueta = ({ data }) => {
 
       <div className="w-full border-2 mx-10 grid grid-cols-2" id="etiquetas">
         {data.map((d, index) => (
-          <div key={index} className="p-4 border ">
+          <div key={index} className="p-4 border max-w-1/2 max-h-1/3 ">
             <div className=" border-4 px-3 py-2">
               <img
                 src={logo}
